@@ -1,0 +1,30 @@
+{
+  "name": "koishi-from-scratch",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@koishijs/core": "^4.15.1",
+    "@koishijs/loader": "^4.2.1",
+    "@satorijs/core": "^3.0.0-rc.1",
+    "@satorijs/satori": "^3.0.0-rc.1",
+    "cordis": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "@koishijs/plugin-config": "^2.4.1",
+    "@koishijs/plugin-console": "^5.16.1",
+    "@koishijs/plugin-insight": "^3.4.1",
+    "@koishijs/plugin-market": "^2.3.1"
+  },
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "build": "tsc"
+  },
+  "packageManager": "yarn@3.6.4"
+}
